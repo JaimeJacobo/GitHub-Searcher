@@ -50,7 +50,7 @@ const showData = ()=>{
             document.getElementById("username").innerHTML = '';
             document.getElementById("fullName").innerHTML = '';
             document.getElementById("bio").innerHTML = '';
-            document.getElementById("userImage").innerHTML = '<div class="alert alert-danger" role="alert"><p>Unfortunately, the GitHub API rate limit exceeded.</p><p>You must have to wait until the rate limit resets. It could take up to 60 minutes to restart.</p><p>Sorry for the inconveniance.</p></p></div>';
+            document.getElementById("userImage").innerHTML = '<div class="alert alert-danger" role="alert"><p>Unfortunately, the GitHub API rate limit exceeded.</p><p>You must have to wait until the rate limit resets. It could take up to 60 minutes to restart.</p><p>Sorry for the inconvenience.</p></p></div>';
         };
     });
 };
@@ -112,7 +112,3 @@ document.getElementById("form").addEventListener("submit", (e) =>{
     showData();
     showRepos();
 });
-
-
-
-
