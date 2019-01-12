@@ -1,4 +1,6 @@
 
+@font-face { font-family: Fox and Cat; src: url('Fox & Cat.otf'); } 
+
 body {
   background-color: rgb(240, 240, 240);
 }
@@ -49,6 +51,15 @@ body {
   align-items: center;
   padding: 15px 0;
   font-weight: bold;
+}
+
+#title {
+  font-family: 'Fox and Cat';
+  position: fixed;
+  font-size: 5em;
+  top: 150px;
+  width: 100vw;
+  text-align: center;
 }
 
 #allBeforeRequest {
@@ -119,4 +130,25 @@ body {
 
 #bio p {
   margin-bottom: 0px;
+}
+
+@media screen and (max-width: 535px){
+  #title {
+    top: 50px;
+  }
+}
+
+@media screen and (max-width: 350px){
+  #title {
+    top: 0px;
+  }
+
+  #content {
+    width: 280px;
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+  }
 }

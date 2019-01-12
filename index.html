@@ -6,31 +6,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <title>Jaime Jacobo - Marfeel Excercise</title>
+  <title>Jaime Jacobo - GitHub Searcher</title>
 </head>
 
 <body>
-  <div id="allBeforeRequest">
-  <div id="content" class="flexCenteredColumn">
-    <form id="form" class="form-inline">
-      <input id="input" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button id="button" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-    <div id="contactInfoAndImage" class="flexItemsCentered">
-      <div id="userImage"></div>
-      <div id="contactInfo">
-        <div id="username" class="italic fontSized"></div>
-        <div id="fullName"></div>
-        <div id="bio" class="fontSized"></div>
-      </div>
-    </div>
-    <div id="header">
-    </div>
-    <div id="allRepositories">
-    </div>
-    <script src="./js/app.js"></script>
+  <div>
+    <h1 id="title">GitHub Searcher</h1>
   </div>
-</div>
+  <div id="allBeforeRequest">
+    <div id="content" class="flexCenteredColumn">
+      <form id="form" class="form-inline">
+        <input id="input" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button id="button" class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="document.getElementById('title').innerHTML=''">Search</button>
+      </form>
+      <div id="contactInfoAndImage" class="flexItemsCentered">
+        <div id="userImage"></div>
+        <div id="contactInfo">
+          <div id="username" class="italic fontSized"></div>
+          <div id="fullName"></div>
+          <div id="bio" class="fontSized"></div>
+        </div>
+      </div>
+      <div id="header">
+      </div>
+      <div id="allRepositories">
+      </div>
+      <script src="./js/app.js"></script>
+    </div>
+  </div>
 </body>
 
 </html>
