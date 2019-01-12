@@ -1,0 +1,122 @@
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+.flexCenteredColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexItemsCentered {
+  display: flex;
+  align-items: center;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.fontSized {
+  font-size: 15px;
+}
+
+.header {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+.flexCentered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.singleRepository {
+  display: flex;
+  width: 346px;
+  margin-bottom: 5px;
+  justify-content: space-between;
+  border-bottom: solid gray 1px;
+}
+
+.repositoriesClass {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  font-weight: bold;
+}
+
+#allBeforeRequest {
+  display: flex;
+  justify-content: center;
+  padding-top: 40vh; 
+}
+
+#content {
+  -webkit-box-shadow: 10px 10px 20px 5px rgba(170,170,170,0.9);
+  -moz-box-shadow: 10px 10px 20px 5px rgba(170,170,170,0.9);
+  box-shadow: 10px 10px 20px 5px rgba(170,170,170,0.9);
+  background-color: rgb(250, 250, 250);
+  margin: 10px 10px;
+  padding-top: 20px;
+  height: 100%;
+  width: 400px;
+  border-radius: 10px;
+}
+
+#form {
+  margin-bottom: 10px;
+}
+
+#input {
+  width: 276px;
+}
+
+#contactInfoAndImage {
+  width: 352px;
+}
+
+#allAfterRequest {
+  display: flex;
+  justify-content: center; 
+}
+
+#fullName {
+  font-stretch: extra-expanded;
+}
+
+#header {
+  width: 370px;
+  padding-top: 10px;
+}
+
+#image {
+  height: 20px;
+}
+
+#imageFork {
+  height: 20px;
+}
+
+#innerUserImage {
+  height: 122px;
+  margin-right: 10px;
+  border: solid black 1px;
+}
+
+#username p {
+  margin-bottom: 0px;
+}
+
+#fullName h3 {
+  margin-bottom: 0px;
+}
+
+#bio p {
+  margin-bottom: 0px;
+}
